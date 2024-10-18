@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+
+{% block title %}Home - Gluten-Free Cooking and Baking{% endblock %}
+
+{% block content %}
+<h1>Welcome to Gluten-Free Cooking/Baking Favs!</h1>
+<p>Click the links below to explore:</p>
+<ul>
+    <li><a href="{{ url_for('baking') }}">Baking</a></li>
+    <li><a href="{{ url_for('cooking') }}">Cooking</a></li>
+</ul>
+{% endblock %}
